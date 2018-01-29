@@ -33,7 +33,7 @@ npm run build --report
 
 
 ## 目录结构介绍 ##
-    G:\vue-manage-master
+G:\vue-manage-master
   │  .babelrc
   │  .editorconfig
   │  .gitignore
