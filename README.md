@@ -18,9 +18,13 @@ npm run build
 npm run build --report
 ```
 ## 前言 ##
-我们这次用Vue + Element组件库做了个后台管理系统，基本很多组件可以直接引用组件库的.
+我们这次用Vue + ElementUI组件库做了个后台管理系统,后台使用nodejs.
 
-该方案作为一套多功能的后台框架模板，适用于绝大部分的后台管理系统（Web Management System）开发。基于vue.js,使用vue-cli脚手架快速生成项目目录，引用Element UI组件库，方便开发快速简洁好看的组件。分离颜色样式，支持手动切换主题色，而且很方便使用自定义主题色。
+## 使用该系统  
+                第一步：需要在根目录 使用npm run dev ,
+                第二步打开根目录下的 api文件夹,进入vueprojectapi文件夹,运行控制台输入node server,
+                第三步,导入根目录下的db_hotel.sql文件到mysql,
+                第四步,修改baseurl.js 还有 db.js文件的url路径（换成自己本机的ip地址）
 
 ## 功能 ##
 - [x] Element UI
